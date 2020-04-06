@@ -1,0 +1,12 @@
+version: '3'
+services: 
+
+  web:
+
+      build: ./python
+      container_name: django
+      ports: 
+        - "80:80"
+      
+      
+
